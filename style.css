@@ -1,0 +1,36 @@
+
+.content {
+    background: lightgray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#result {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+}
+
+.box2x {
+    width: 120px;
+    height: 60px;
+}
+
+.option {
+    background-color: gray;
+    color:red
+}
+
+.numeric {
+    background-color: gray;
+}
+
+.row {
+    display: flex;
+}
